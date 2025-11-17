@@ -1,0 +1,394 @@
+/*------- Home container styles -----*/
+.home-container,
+.cart-container {
+  display: flex;
+}
+/*-------- Content container styles here -------*/
+.content-container,
+.cart-container-box {
+  margin: 30px auto;
+  width: 70vw;
+}
+.product-loader {
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------- Card container styles ----------*/
+.card-container,
+.cart-items {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2em;
+  border-radius: 10px;
+}
+
+/*--------- Signin styles ------------*/
+.signin-container,
+.signup-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  height: 70vh;
+  width: max-content;
+  margin: 0 auto;
+}
+.signin-container h1,
+.signup-container h1 {
+  font-size: 3em;
+  margin-bottom: 0.9em;
+  color: #284c54;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.signin-container p {
+  font-size: 1.1em;
+  color: #284c54;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.signin-container p:hover {
+  cursor: pointer;
+  color: #328699;
+  font-size: 1.11em;
+}
+
+/*--------- Cart Styles ----------*/
+#cart-total-price {
+  min-width: 15vw;
+  max-width: 16vw;
+  height: 22vh;
+  background-color: rgba(128, 128, 128, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  /* text-align: center; */
+  margin-top: 7em;
+  position: sticky;
+  top: 30.7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cart-total-price p {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #284c54;
+}
+#cart-total-price button {
+  font-size: 1.3em;
+  margin-top: 15px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #7864e4;
+  color: white;
+  border: none;
+}
+#cart-total-price button:hover {
+  cursor: pointer;
+  background-color: #5244a3;
+}
+/*------------My-Order Styles--------------*/
+.orders-container {
+  margin: 30px auto;
+  text-align: center;
+}
+.orders-container h1 {
+  font-size: 2.2em;
+  text-decoration: underline;
+}
+.order-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+/*----------Warning-Page ---------*/
+#warning-container {
+  margin: 10px auto 0px;
+  width: 40em;
+  position: relative;
+}
+#warning-container span {
+  font-size: 7em;
+  position: relative;
+  top: -1em;
+}
+#warning-text {
+  font-size: 3em;
+  margin: 20px;
+  color: rgb(226, 43, 43);
+  text-align: center;
+}
+/*-----------Prodcut Dashboad-------------*/
+.product-dash-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.dash-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  gap: 3em;
+  width: 50em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 15px;
+}
+
+.product-image img {
+  width: 10em;
+  height: 10em;
+}
+.product-dash-content h1 {
+  font-size: 1.7em;
+  text-align: justify;
+  width: 90%;
+  word-wrap: break-word;
+  /* color: rgb(109, 97, 97); */
+  color: #328699;
+}
+.product-dash-content p {
+  margin-top: 1em;
+  font-size: 1.1em;
+  width: 90%;
+  color: rgb(83, 77, 77);
+  text-align: justify;
+}
+.product-dash-content h3 {
+  margin-top: 0.5em;
+  /* color: #3e6b75; */
+  color: red;
+}
+.dash-btn {
+  margin-top: 1em;
+}
+.dash-btn button {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  margin: 0em 1em;
+  /* font-size: 1em; */
+  font-weight: bold;
+  background-color: #328699;
+  color: white;
+  transition: all 0.5s ease;
+}
+.dash-btn button:hover {
+  transform: scale(1.02);
+  color: #328699;
+  background-color: white;
+  cursor: pointer;
+}
+.update-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*----------- Dashboad -------------*/
+.dashboard-container {
+  display: flex;
+}
+.dash-sidebar {
+  min-width: 15em;
+}
+.dash-user-details {
+  margin: 0.7em 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dash-user-details img {
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+}
+.dash-user-details p {
+  margin-top: 0.7em;
+  font-size: 1.2em;
+  /* color: rgb(73, 68, 68); */
+  color: #328699;
+}
+.dash-navigate {
+  margin-top: 1em;
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  flex-direction: column;
+  gap: 0.5em;
+}
+.dash-navigate .dash-home {
+  margin: 0em 1.5em;
+  padding: 0.2em 0.5em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  /* color: gray; */
+  color: #328699;
+}
+.dash-navigate .dash-home:hover {
+  background-color: #328699;
+  border-radius: 5px;
+  color: white;
+}
+.dash-navigate .dash-home p {
+  font-size: 1em;
+  font-weight: bold;
+}
+.dash-navigate .dash-home p:hover {
+  font-size: 1em;
+  font-weight: bold;
+  /* color: white; */
+}
+.dash-navigate #logout, .dash-navigate #delete {
+  margin: 0em 1.5em;
+  padding: 0.2em 0.5em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  /* border: 1px solid black; */
+  color: white;
+  background-color: #328699;
+  border-radius: 5px;
+  transition: all 0.5s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7em;
+}
+.dash-navigate #logout p, .dash-navigate #delete p {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.dash-navigate #logout:hover, .dash-navigate #delete:hover {
+  background-color: aliceblue;
+  color: black;
+  border: 1px solid gray;
+}
+.dash-sidebar-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.dash-welcome{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dash-welcome h1,.user-list-product #none{
+  text-align: center;
+  width: 70%;
+  color: #328699;
+}
+.user-list-product{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+.product-list{
+  /* border: 1px solid black; */
+  min-width: 12em;
+  max-width: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+}
+.product-list img{
+  width: 10em;
+  height: 10em;
+}
+.product-list h1{
+  margin-top: .2em;
+  font-size: 1.3em;
+  width: 80%;
+  word-wrap: break-word;
+  color: #328699;
+  text-align: center;
+}
+.product-list p{
+  margin-top: .5em;
+  font-size: 1.2em;
+  color: #4b818d;
+}
+.product-list span{
+  margin-top: .5em;
+  display: block;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+  /* right: 1em; */
+  /* left: 1em; */
+  /* width: 100%; */
+}
+.list-btn{
+  display: flex;
+  gap: 1em;
+  margin-top:.5em ;
+}
+.list-btn button{
+  font-size: 1em;
+  padding: .2em .5em;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #328699;
+  color: white;
+  transition: all .5s ease;
+}
+.list-btn button:hover {
+  transform: scale(1.02);
+  color: #328699;
+  background-color: white;
+  cursor: pointer;
+}
+.update-form-dash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cp-side{
+  padding: 1em 2em;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body.dark-theme .product-dash-container{
+  background-color: rgb(27, 24, 24);
+}
+body.dark-theme .product-list{
+  background-color: rgb(27, 24, 24);
+}

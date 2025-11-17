@@ -1,0 +1,66 @@
+.add_product-container {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 1em 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  position: relative;
+  
+}
+.add_product-container span{
+  position: absolute;
+  font-size: 1.2em;
+  font-weight: 600;
+  right: 1em;
+  cursor: pointer;
+}
+.add_product-container h1 {
+  text-align: center;
+  color: #328699;
+}
+.add_product-container input {
+  font-size: 1.3em;
+  padding: 10px 15px;
+  /* font-weight: 600; */
+  width: 12em;
+  border-radius: 10px;
+  outline: none;
+  border-color: #7864e4;
+  color: rgb(122, 114, 114);
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.add_product-container select {
+  font-size: 1.4em;
+  padding: 10px 15px;
+  /* font-weight: 600; */
+  width: 12.7em;
+  border-radius: 10px;
+  outline: none;
+  border-color: #7864e4;
+  border: 2px solid #7864e4;
+  color: rgb(122, 114, 114);
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.add_product-container #file{
+    border: 2px solid #7864e4;
+}
+.add_product-container button {
+  font-size: 1.3em;
+  padding: 7px 0px;
+  border-radius: 10px;
+  border: none;
+  /* background-color: rgb(9, 139, 190); */
+  background-color: #7864e4;
+  color: white;
+}
+.add_product-container button:hover {
+  cursor: pointer;
+  background-color: #544897;
+}
+body.dark-theme .add_product-container{
+  background-color: rgb(26, 21, 21);
+}

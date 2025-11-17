@@ -1,0 +1,27 @@
+.order-box h2{
+    font-weight: bold;
+    color: #284c54;
+  }
+  .order-table{
+    margin: 20px 0px;
+  }
+  .order-table table{
+    /* border: 5px solid white; */
+    background-color: rgba(128, 128, 128, 0.1);
+    border-collapse: collapse;
+  
+  }
+  .order-table thead tr th{
+    font-size: 1.4em;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-bottom: 3px solid black;
+  }
+  .order-table tbody tr td{
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 3px solid white;
+  }
+  .order-table tbody tr td:first-child{
+    width: 17em;
+  }

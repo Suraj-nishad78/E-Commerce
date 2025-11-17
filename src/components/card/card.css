@@ -1,0 +1,110 @@
+/* Card box styles */
+.card-box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-width: 18em;
+    max-width: 18em;
+    border-radius: 10px;
+    /* padding: 1px 0px; */
+  }
+  .card-image{
+    padding-top: 10px;
+  }
+  .card-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  }
+  /* Card content styles */
+  .card-content{
+    margin: 20px 0px;
+  }
+  .card-content p{
+    font-size: 1.3em;
+    width: 12em;
+    word-wrap: break-word;
+    text-align: left;
+    margin: 5px auto;
+    color: #284c54;
+  }
+  .card-content #add-to-cart{
+    margin: 10px 0px 0px;
+    font-size: 1.4em;
+    padding: 10px 0px;
+    width: 10em;
+    /* border-color: rgb(9, 139, 190); */
+    border-color: #7864e4;
+    border-radius: 5px;
+    /* background-color:  rgb(9, 139, 190); */
+    background-color:  #7864e4;
+    color: white;
+  }
+  .card-content #remove-cart{
+    margin: 10px 0px 0px;
+    font-size: 1.4em;
+    padding: 10px 0px;
+    width: 10em;
+    border-color: rgb(235, 48, 48);
+    border-radius: 5px;
+    background-color:  rgb(235, 48, 48);
+    color: white;
+  }
+  .card-content #add-to-cart:hover{
+    cursor: pointer;
+    background-color: white;
+    /* color: rgb(9, 139, 190); */
+    color: #7864e4;
+  }
+  .card-content #remove-cart:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(235, 48, 48);
+  }
+  #price-quantity{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 35px;
+  }
+  #price-quantity h3{
+    /* text-align: left; */
+    font-size: 1.5em;
+    color: #284c54;
+  }
+  #quantity-manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #quantity-manage span{
+    font-size: 1.4em;
+  }
+  #quantity-manage button{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    border-radius: 50%;
+    padding: 3px 4px;
+    margin: 2px 8px;
+    background-color: black;
+    color: white;
+  }
+  #quantity-manage button:hover{
+    cursor: pointer;
+    background-color: rgb(66, 45, 45);
+  }
+  .card-content #product-dashboard{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    text-align: right;
+    position: relative;
+    right: 2.3em;
+    transition: all .5s ease;
+  }
+  body.dark-theme .card-box{
+    background-color: rgb(26, 22, 22);
+  }

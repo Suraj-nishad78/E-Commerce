@@ -1,0 +1,8 @@
+{
+  "welcome": "¡Bienvenido, {{name}}!",
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "profile": "Perfil",
+  "change_language": "Cambiar idioma",
+  "update_success": "Perfil actualizado correctamente."
+}

@@ -1,0 +1,41 @@
+.form-sign{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+  }
+  .form-sign input{
+    font-size: 1.3em;
+    padding: 10px 15px;
+    /* font-weight: 600; */
+    width: 12em;
+    border-radius: 10px;
+    outline:none;
+    border-color:#7864e4;
+    color: rgb(122, 114, 114);
+    background-color: rgba(128, 128, 128, .1);
+  }
+  .form-sign select{
+    font-size: 1.4em;
+    padding: 10px 15px;
+    /* font-weight: 600; */
+    width: 12.7em;
+    border-radius: 10px;
+    outline:none;
+    border-color:#7864e4;
+    border: 2px solid #7864e4;
+    color: rgb(122, 114, 114);
+    background-color: rgba(128, 128, 128, .1);
+  }
+  .form-sign button{
+    font-size: 1.3em;
+    padding: 7px 0px;
+    border-radius: 10px;
+    border:none;
+    /* background-color: rgb(9, 139, 190); */
+    background-color: #7864e4;
+    color: white;
+  }
+  .form-sign button:hover{
+    cursor: pointer;
+    background-color: #544897;
+  }
