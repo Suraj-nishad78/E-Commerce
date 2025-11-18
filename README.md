@@ -9,7 +9,7 @@
 ### **Frontend**
 - React with vite.
 
-### **Frontend**
+### **Database**
 - Firebase
 
 ---
