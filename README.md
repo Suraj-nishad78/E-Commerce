@@ -61,7 +61,7 @@ buy-busy/
 ---
 
 The project is live!  
-👉 **[View Live Demo](https://buy-busy-every.netlify.app/)**
+👉 **[View Live Demo](https://e-commerce-busy-buy.netlify.app/)**
 
 ---
 

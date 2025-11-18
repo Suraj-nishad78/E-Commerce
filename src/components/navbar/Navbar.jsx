@@ -12,7 +12,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const logoutUser = async () => {
-    navigate("/signin");// Redirect to home page
+    navigate("/signin"); // Redirect to home page
     await signOut(auth); // Sign out from Firebase Auth
     localStorage.clear(); // Clear local storage
     setUserId(""); // Clear context userId
@@ -30,7 +30,10 @@ const Navbar = () => {
         {/* App Title */}
         <div id="nav-title">
           <Link className="nav-link" to="/">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm3nxihNakgVW-ajUlSa55fuOrnhmwPsR4qA&s" alt="image" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm3nxihNakgVW-ajUlSa55fuOrnhmwPsR4qA&s"
+              alt="image"
+            />
             <p>Busy Buy</p>
           </Link>
         </div>

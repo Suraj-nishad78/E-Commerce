@@ -199,7 +199,6 @@ const Dashboad = () => {
           <h1>
             Welcome to the dashboard — manage your products and insights here.
           </h1>
-          {/* <p></p> */}
         </div>
       )}
       {state.listProduct && (

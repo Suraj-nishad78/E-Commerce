@@ -82,10 +82,13 @@ const Add_Product = ({ product, hideUpdateForm, fetchAdminProduct }) => {
       })
     );
     reset();
-    fetchAdminProduct();
-    hideUpdateForm();
     toast.success("Product Updated Successfully!");
-    // navigate("/")
+    if(fetchAdminProduct){
+      fetchAdminProduct();
+    }else{
+      navigate("/")
+    }
+    hideUpdateForm();
   };
 
   useEffect(() => {

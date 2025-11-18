@@ -1,8 +1,0 @@
-{
-  "welcome": "Welcome, {{name}}!",
-  "login": "Login",
-  "logout": "Logout",
-  "profile": "Profile",
-  "change_language": "Change language",
-  "update_success": "Profile updated successfully."
-}
